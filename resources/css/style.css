@@ -24,6 +24,10 @@ nav ul {
   list-style: none;
 }
 
+li {
+  display: list-item;
+}
+
 .headlines h1 {
   font-size: 2em;
   line-height: 1.2em;
@@ -58,7 +62,7 @@ nav ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: auto -8px auto 8px;
+  margin: auto -8px auto -8px;
 }
 
 .headline {
