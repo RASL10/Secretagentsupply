@@ -2,8 +2,7 @@ body {
   font-family: Helvetica;
   font-size: 16px;
   display: block;
-  line-height: 22.4px
-
+  line-height: 22.4px;
 }
 
 h1, h4 {
@@ -14,6 +13,7 @@ h1, h4 {
 nav {
   background-color: firebrick;
   color: white;
+  margin: auto -8px auto -8px;
 }
 
 nav ul {
@@ -58,7 +58,7 @@ nav ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-left: auto -8px auto 8px;
+  margin: auto -8px auto 8px;
 }
 
 .headline {
@@ -68,4 +68,20 @@ nav ul {
   position: relative;
   top: 9em;
   padding: 2em 3em;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav {
+    display: block;
+  }
 }
